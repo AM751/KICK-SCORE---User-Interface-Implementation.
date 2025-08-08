@@ -10,15 +10,16 @@ public class PlayerInformationPanel : MonoBehaviour
     }
     private void PlayerHealthShow()
     {
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.H))
         {
             playerHealthSUI.enabled = true;
         }
-        if (Input.GetKeyUp(KeyCode.I))
+        if (Input.GetKeyUp(KeyCode.H))
         {
             playerHealthSUI.enabled = false;
         }
     }
+    
 
     // Update is called once per frame
     void Update()
